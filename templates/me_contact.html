@@ -1,0 +1,20 @@
+{% extends "me_parent.html" %}
+{% block content %}
+{% block head %}    
+<title>Kontakt</title>
+{% endblock %}
+<h1>Kontakt</h1>
+<ul>
+    <li>email: siedzacy_byk@lubieplacki.ru</li>
+    <li>telefon: 666 696 666</li>
+</ul>
+<form action="" method="POST">
+    <label>Zapraszam do kontaktu przy użyciu poniższego formularza:</label>
+    <table>
+        <tr>
+            <td><textarea name="message"></textarea></td>
+            <td><button type="submit">Wyślij</td></button></td>
+        </tr>
+    </table>
+</form>
+{% endblock %}    

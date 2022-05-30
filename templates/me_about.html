@@ -1,0 +1,18 @@
+{% extends "me_parent.html" %}
+{% block head %}    
+<title>O mnie</title>
+{% endblock %}
+{% block content %}
+<h1>Kilka słów o mnie</h1>
+<table>
+    <tr>
+        <td><b>imię:</b></td>
+        <td>&nbspTadeusz</td>
+    </tr>
+    <tr>
+        <td><b>nazwisko:</b></td>
+        <td>&nbspBorowiecki</td>
+    </tr>
+</table>
+<p><a href="{{ url_for('contact') }}">Tutaj znajdziesz namiary na mnie</a></p>
+{% endblock %}

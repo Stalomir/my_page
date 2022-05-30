@@ -1,0 +1,17 @@
+html {
+    max-width: 500px;
+}
+h1 {
+    background-color: orange;
+    color: red;
+    text-decoration: underline;
+    }
+#paskuda {
+    width: 300px
+}   
+textarea {
+    width: 300px
+}
+#content {
+    background: rgba(195, 192, 192, 0.461)
+}
